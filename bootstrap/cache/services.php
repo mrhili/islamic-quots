@@ -32,9 +32,8 @@
     28 => 'App\\Providers\\AuthServiceProvider',
     29 => 'App\\Providers\\EventServiceProvider',
     30 => 'App\\Providers\\RouteServiceProvider',
-    31 => 'Barryvdh\\Debugbar\\ServiceProvider',
-    32 => 'Kurt\\Repoist\\RepoistServiceProvider',
-    33 => 'Intervention\\Image\\ImageServiceProvider',
+    31 => 'Kurt\\Repoist\\RepoistServiceProvider',
+    32 => 'Intervention\\Image\\ImageServiceProvider',
   ),
   'eager' => 
   array (
@@ -56,9 +55,8 @@
     15 => 'App\\Providers\\AuthServiceProvider',
     16 => 'App\\Providers\\EventServiceProvider',
     17 => 'App\\Providers\\RouteServiceProvider',
-    18 => 'Barryvdh\\Debugbar\\ServiceProvider',
-    19 => 'Kurt\\Repoist\\RepoistServiceProvider',
-    20 => 'Intervention\\Image\\ImageServiceProvider',
+    18 => 'Kurt\\Repoist\\RepoistServiceProvider',
+    19 => 'Intervention\\Image\\ImageServiceProvider',
   ),
   'deferred' => 
   array (

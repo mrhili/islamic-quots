@@ -50,7 +50,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -195,7 +195,7 @@ return [
         
         
         
-        Barryvdh\Debugbar\ServiceProvider::class,
+        //Barryvdh\Debugbar\ServiceProvider::class,
         Kurt\Repoist\RepoistServiceProvider::class,
         
         Intervention\Image\ImageServiceProvider::class,
