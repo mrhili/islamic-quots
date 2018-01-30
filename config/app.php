@@ -1,6 +1,7 @@
 <?php
 
 return [
+    //
     
     /*
     |--------------------------------------------------------------------------
@@ -37,6 +38,7 @@ return [
     |
     */
 
+    //'env' => env('APP_ENV', 'production'),
     'env' => env('APP_ENV', 'production'),
 
     /*
@@ -49,8 +51,8 @@ return [
     | application. If disabled, a simple generic error page is shown.
     |
     */
-
-    'debug' => env('APP_DEBUG', true),
+    //'debug' => env('APP_DEBUG', false ),
+    'debug' => env('APP_DEBUG', false ),
 
     /*
     |--------------------------------------------------------------------------
@@ -62,8 +64,8 @@ return [
     | your application so that it is used when running Artisan tasks.
     |
     */
-
-    'url' => env('APP_URL', 'http://album2mod.local/'),
+    //'url' => env('APP_URL', 'http://album2mod.local'),
+    'url' => env('APP_URL', 'http://iqs.herokuapp.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -137,7 +139,8 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'single'),
+    //'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'errorlog'),
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
