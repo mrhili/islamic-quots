@@ -1547,6 +1547,7 @@ return array(
     'Illuminate\\View\\ViewFinderInterface' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
     'Illuminate\\View\\ViewName' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewName.php',
     'Illuminate\\View\\ViewServiceProvider' => $vendorDir . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+    'ImageSeeder' => $baseDir . '/database/seeds/ImageSeeder.php',
     'Intervention\\Image\\AbstractColor' => $vendorDir . '/intervention/image/src/Intervention/Image/AbstractColor.php',
     'Intervention\\Image\\AbstractDecoder' => $vendorDir . '/intervention/image/src/Intervention/Image/AbstractDecoder.php',
     'Intervention\\Image\\AbstractDriver' => $vendorDir . '/intervention/image/src/Intervention/Image/AbstractDriver.php',

@@ -1899,6 +1899,7 @@ class ComposerStaticInit5ed25ad5b1f31ee613db6c783bf2d218
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'ImageSeeder' => __DIR__ . '/../..' . '/database/seeds/ImageSeeder.php',
         'Intervention\\Image\\AbstractColor' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractColor.php',
         'Intervention\\Image\\AbstractDecoder' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractDecoder.php',
         'Intervention\\Image\\AbstractDriver' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/AbstractDriver.php',
