@@ -5,7 +5,7 @@
             <h2 class="text-title mb-3">{{ $category->name }}</h2>
         @endif
         @isset($user)
-            <h2 class="text-title mb-3">{{ __('Photos de ') . $user->name }}</h2>
+            <h2 class="text-title mb-3">{{ @lang('Photos de ') . $user->name }}</h2>
         @endif
         <div class="card-columns">
             @foreach($images as $image)
@@ -18,7 +18,7 @@
                     @endisset
                     <div class="card-footer text-muted">
                         <small><em>
-                                <a href="{{ route('user', $image->user->id) }}" data-toggle="popover" data-placement="right" data-content="{{ __('Voir les photos de ') . $image->user->name }}" title="{{ __('Voir les photos de ') . $image->user->name }}">{{ $image->user->name }}</a>
+                                <a href="{{ route('user', $image->user->id) }}" data-toggle="popover" data-placement="right" data-content="{{ @lang('Voir les photos de ') . $image->user->name }}" title="{{ @lang('Voir les photos de ') . $image->user->name }}">{{ $image->user->name }}</a>
                             </em></small>
                         <small class="pull-right">
                             <em>

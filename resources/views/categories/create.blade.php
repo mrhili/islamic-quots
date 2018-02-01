@@ -7,7 +7,7 @@
         <form method="POST" action="{{ route('category.store') }}">
             {{ csrf_field() }}
             @include('partials.form-group', [
-                'title' => __('Nom'),
+                'title' => @lang('Nom'),
                 'type' => 'text',
                 'name' => 'name',
                 'required' => true,

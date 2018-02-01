@@ -26,7 +26,7 @@
                 </select>
             </div>
             @include('partials.form-group', [
-                'title' => __('Description (optionnelle)'),
+                'title' => @lang('Description (optionnelle)'),
                 'type' => 'text',
                 'name' => 'description',
                 'required' => false,

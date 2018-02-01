@@ -11,7 +11,7 @@
             {{ csrf_field() }}
             {{ method_field('PUT') }}
             @include('partials.form-group', [
-                'title' => __('Adresse email'),
+                'title' => @lang('Adresse email'),
                 'type' => 'email',
                 'name' => 'email',
                 'required' => true,
