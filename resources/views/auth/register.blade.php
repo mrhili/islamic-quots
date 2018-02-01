@@ -7,25 +7,25 @@
         <form method="POST" action="{{ route('register') }}">
             {{ csrf_field() }}
             @include('partials.form-group', [
-                'title' => @lang('Nom'),
+                'title' => __('Nom'),
                 'type' => 'text',
                 'name' => 'name',
                 'required' => true,
                 ])
             @include('partials.form-group', [
-                'title' => @lang('Adresse email'),
+                'title' => __('Adresse email'),
                 'type' => 'email',
                 'name' => 'email',
                 'required' => true,
                 ])
             @include('partials.form-group', [
-                'title' => @lang('Mot de passe'),
+                'title' => __('Mot de passe'),
                 'type' => 'password',
                 'name' => 'password',
                 'required' => true,
                 ])
             @include('partials.form-group', [
-                'title' => @lang('Confirmation du mot de passe'),
+                'title' => __('Confirmation du mot de passe'),
                 'type' => 'password',
                 'name' => 'password_confirmation',
                 'required' => true,
