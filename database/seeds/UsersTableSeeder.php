@@ -17,13 +17,13 @@ class UsersTableSeeder extends Seeder
             'name' => 'Amine',
             'email' => 'amine@app.com',
             'role' => 'admin',
-            'password' => bcrypt('islam022'),
+            'password' => bcrypt('islamicquots'),
             'settings' => '{"pagination": 8}'
         ]);
         User::create([
             'name' => 'Mouad',
             'email' => 'mouad@app.comfr',
-            'password' => bcrypt('islam022'),
+            'password' => bcrypt('islamicquots'),
             'settings' => '{"pagination": 8}',
         ]);
     }

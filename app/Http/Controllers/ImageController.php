@@ -120,7 +120,7 @@ class ImageController extends Controller
     public function destroy($id)
     {
         //
-        $image->delete();
+        $id->delete();
         return back();
     }
     
