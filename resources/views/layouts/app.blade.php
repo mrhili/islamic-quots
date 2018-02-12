@@ -13,7 +13,7 @@
     @yield('css')
 </head>
 <body>
-<nav class="navbar fixed-top navbar-expand-lg">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="{{ route('home') }}">{{ config('app.name', 'Album') }}</a>
     <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdownFlag" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
