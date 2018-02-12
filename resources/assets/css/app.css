@@ -1,5 +1,5 @@
 body {
-    background-color: #D2F5F9;
+    background-color: #f8f9fa;
     padding-top: 70px;
 }
 
@@ -61,4 +61,10 @@ a.dropdown-toggle::after {
 .open > a.dropdown-toggle::before,
 .open > a.dropdown-toggle::after {
     display: block;
+}
+
+fixed-top{
+    border-bottom-color: rgba(12, 226, 255, .3);;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
 }
