@@ -32,6 +32,14 @@
                                 @endadminOrOwner
                             </em>
                         </small>
+
+                        <small class="pull-left">
+                            <em>
+                                <a class="" href="{{ url('images/' . $image->name) }}" title="@lang('Télécharger la photo')" download><i class="fa fa-download"></i></a>
+
+                            </em>
+                        </small>
+
                     </div>
                 </div>
             @endforeach
