@@ -15,8 +15,14 @@ class Locale
      */
     public function handle($request, Closure $next)
     {
+
+        
         if(!session()->has('locale')) {
-            session(['locale' => $request->getPreferredLanguage(config('app.locales'))]);
+            session(
+                [
+                    'locale' => $request->getPreferredLanguage( config('app.locales')   )
+                ]
+                );
         }
         
         
